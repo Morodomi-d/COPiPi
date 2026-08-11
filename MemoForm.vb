@@ -887,7 +887,7 @@ Public Class MemoForm
         fileLabel.Text = GetSmartUrlText(inputUrl)
         fileLabel.Visible = True
 
-        clipLabel.Text = "??"
+        clipLabel.Text = "🌐"
         memoTip.SetToolTip(clipLabel, "リンク先を開きます")
 
         TitleText.Width = 266
